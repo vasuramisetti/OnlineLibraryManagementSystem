@@ -1,0 +1,32 @@
+
+
+body {
+
+font-size:16px;
+    color: #fff;
+    background-color: #61122f;
+	height:750px;
+    width:100%;
+    border:3px solid #00b300;
+    margin:30px;
+    
+}
+
+
+#mainhead{ 
+text-align:center;
+color:#99ff33;
+padding-top: 40px;
+font-size:250%;
+}
+
+#forms {
+	color:#ff9933;
+	font-size:150%;
+    height:250px;
+    width:100%;
+    margin-bottom:15px;
+    position:relative;
+    border:2px solid #ffff00;
+	
+}
