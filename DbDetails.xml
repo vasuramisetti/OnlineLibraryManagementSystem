@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+<bean id="bookDAO" class="vasudev.com.JdbcBookDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="bookDAOimpl" class="vasudev.com.JdbcDAOimp">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/books" />
+		<property name="username" value="root" />
+		<property name="password" value="Vasudev17*" />
+	</bean>
+
+
+
+
+</beans>
